@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50px;
+    justify-content: space-between;
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+}
+
+.menu-links {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    list-style: none;
+}
+
+.menu-link a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #2980b9;
+}
+
+.logo-image {
+    width: 50px;
+    height: 50px;
+}
+
+main {
+    margin: 20px;
+}
+
+#student-data:target {
+    display: block;
+}
+
+#student-data {
+    display: none;
+}
+
+#student-data img {
+    max-width: 100%;
+    height: auto;
+}
+
+.student-details {
+    background-color: #ecf0f1;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+p {
+    margin: 5px 0;
+}
